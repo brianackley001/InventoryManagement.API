@@ -1,0 +1,28 @@
+﻿[*.cs]
+
+# CA1305: Specify IFormatProvider
+dotnet_diagnostic.CA1305.severity = none
+
+# CA1031: Do not catch general exception types
+dotnet_diagnostic.CA1031.severity = none
+
+# CA1062: Validate arguments of public methods
+dotnet_diagnostic.CA1062.severity = none
+
+# CA1822: Mark members as static
+dotnet_diagnostic.CA1822.severity = none
+
+# IDE0058: Expression value is never used
+csharp_style_unused_value_expression_statement_preference = discard_variable:none
+
+# S125: Sections of code should not be commented out
+dotnet_diagnostic.S125.severity = silent
+
+# S1481: Remove the unused local variable 'result'.
+dotnet_diagnostic.S1481.severity = silent
+
+# S4792:: Make sure that this logger's configuration is safe.
+dotnet_diagnostic.S4792.severity = suggestion
+
+# S1118: Add a 'protected' constructor or the 'static' keyword to the class declaration.
+dotnet_diagnostic.S1118.severity = suggestion
